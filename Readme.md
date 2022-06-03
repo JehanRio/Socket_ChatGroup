@@ -40,7 +40,7 @@
 
 
 
-![img](E:\图片\Typora_image\clip_image002.jpg)
+![img]([E:\图片\Typora_image\clip_image002.jpg](https://github.com/JehanRio/Socket_ChatGroup/blob/main/img/clip_image002.jpg))
 
 ### 如何服务更多的用户？
 
