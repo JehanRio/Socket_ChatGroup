@@ -40,7 +40,9 @@
 
 
 
-![img](https://github.com/JehanRio/Socket_ChatGroup/blob/main/img/clip_image002.jpg)
+<div align=center>
+<img src="https://github.com/JehanRio/Socket_ChatGroup/blob/main/img/clip_image002.jpg" width="180" height="105"> width="180" height="105"/>
+</div>
 ### 如何服务更多的用户？
 
 这是我的初版Socket编程，虽然能够成功实现，但整个过程出现了一个巨大的问题，就是它智能一对一通信，而且因为使用的是同步阻塞的方式，当服务端在还没处理完一个客户端的网络I/O时，或者在读写操作发生阻塞时，其他客户端时没法与服务端连接的。而且，由于程序时一条一条执行下去的，当一方发送数据的时候，另一方如果不发送信息则会阻塞在那，直到另一端也发信息，才能接收到对方的信息。
