@@ -40,18 +40,12 @@
 
 
 
-<div align=center>
-<img src="https://github.com/JehanRio/Socket_ChatGroup/blob/main/img/clip_image002.jpg" width="180" height="105"> width="180" height="105"/>
-</div>
+![img](https://github.com/JehanRio/Socket_ChatGroup/blob/main/img/clip_image002.jpg)
 ### 如何服务更多的用户？
 
 这是我的初版Socket编程，虽然能够成功实现，但整个过程出现了一个巨大的问题，就是它智能一对一通信，而且因为使用的是同步阻塞的方式，当服务端在还没处理完一个客户端的网络I/O时，或者在读写操作发生阻塞时，其他客户端时没法与服务端连接的。而且，由于程序时一条一条执行下去的，当一方发送数据的时候，另一方如果不发送信息则会阻塞在那，直到另一端也发信息，才能接收到对方的信息。
 
-![img](E:\图片\Typora_image\clip_image004.jpg)
-
- 
-
- 
+![img](https://github.com/JehanRio/Socket_ChatGroup/blob/main/img/clip_image004.jpg)
 
 ### 多线程模式
 
@@ -59,7 +53,7 @@
 
 由于同进程的线程可以共享进程的部分资源，比如文件描述符列表、进程空间、代码、全局数据、堆、共享库等，这些共享资源在上下文切换时不需要切换，而只需要切换线程的私有数据、寄存器等不共享的数据，因此同一个进程下的线程上下文切换的开销比进程小得多。
 
-![img](E:\图片\Typora_image\clip_image006.jpg)同时，我还可以使用线程池的方式来避免线程的频繁创建和销毁，将已经连接的Socket放入一个队列，然后线程池的线程负责从队列取出已连接的Socket进程处理。
+![img](https://github.com/JehanRio/Socket_ChatGroup/blob/main/img/clip_image006.jpg)同时，我还可以使用线程池的方式来避免线程的频繁创建和销毁，将已经连接的Socket放入一个队列，然后线程池的线程负责从队列取出已连接的Socket进程处理。
 
 同时，给服务器Socket绑定一个事件对象，用来接收客户端连接的请求，同时将服务端加入线程池中的第一个元素。将事件与Socket关联在一起后，便可以注册自己感兴趣的网络事件类型。
 
@@ -89,19 +83,19 @@
 
 **接收图片**
 
-![img](E:\图片\Typora_image\clip_image008.jpg)
+![img](https://github.com/JehanRio/Socket_ChatGroup/blob/main/img/clip_image008.jpg)
 
-![img](E:\图片\Typora_image\clip_image010.jpg)
+![img](https://github.com/JehanRio/Socket_ChatGroup/blob/main/img/clip_image010.jpg)
 
 **创建10个客户端**
 
-![img](E:\图片\Typora_image\clip_image012.jpg)
+![img](https://github.com/JehanRio/Socket_ChatGroup/blob/main/img/clip_image012.jpg)
 
 **客户端退出**
 
-![img](E:\图片\Typora_image\clip_image014.jpg)
+![img](https://github.com/JehanRio/Socket_ChatGroup/blob/main/img/clip_image014.jpg)
 
 **客户端注销**
 
-![img](E:\图片\Typora_image\clip_image016.jpg)
+![img](https://github.com/JehanRio/Socket_ChatGroup/blob/main/img/clip_image016.jpg)
 
