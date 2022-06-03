@@ -1,0 +1,8 @@
+E:\Computer Science\计算机网络\网络编程代码\ChatClient\Debug\ChatClient.exe
+E:\Computer Science\计算机网络\网络编程代码\ChatClient\Debug\ChatClient.pdb
+E:\Computer Science\计算机网络\计网大作业\ChatClient\Debug\ChatClient.exe
+E:\Computer Science\计算机网络\计网大作业\ChatClient\Debug\ChatClient.pdb
+E:\Computer Science\计算机网络\Socket聊天工具\ChatClient\Debug\ChatClient.exe
+E:\Computer Science\计算机网络\Socket聊天工具\ChatClient\Debug\ChatClient.pdb
+E:\university\计算机网络\Socket聊天工具\ChatClient\Debug\ChatClient.exe
+E:\university\计算机网络\Socket聊天工具\ChatClient\Debug\ChatClient.pdb
